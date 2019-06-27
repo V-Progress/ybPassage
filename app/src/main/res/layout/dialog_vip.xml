@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="330dp"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:id="@+id/fl_img"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:background="@mipmap/bg_head_show">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_marginLeft="6dp"
+            android:id="@+id/civ_userPhoto"
+            android:layout_width="180dp"
+            android:layout_height="180dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="35dp"
+            android:src="@mipmap/avatar" />
+    </FrameLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:background="#1A71BB"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:padding="10dp"
+            android:textSize="36dp"
+            android:textColor="@color/white"
+            android:text="名字"
+            android:layout_gravity="center_horizontal"
+            android:id="@+id/tv_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+
+        <TextView
+            android:id="@+id/tv_pass"
+            android:padding="20dp"
+            android:textColor="#00ff00"
+            android:textSize="40dp"
+            android:gravity="center"
+            android:text="通过"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+</LinearLayout>

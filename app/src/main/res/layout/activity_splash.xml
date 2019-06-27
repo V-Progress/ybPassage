@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/bg_init"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context=".activity.SplashActivity">
+
+    <FrameLayout
+        android:layout_gravity="center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="600dp">
+
+        <ImageView
+            android:layout_gravity="center"
+            android:id="@+id/iv_yuan"
+            android:background="@mipmap/yuan"
+            android:layout_width="600dp"
+            android:layout_height="600dp" />
+
+        <ImageView
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="400dp"
+            android:src="@mipmap/lian" />
+
+        <ImageView
+            android:id="@+id/iv_line"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:src="@mipmap/line" />
+    </FrameLayout>
+</LinearLayout>
